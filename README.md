@@ -45,6 +45,10 @@ npm install border.css
 - `.border-solid`
 - `.border-double`
 - `.border-hidden`
+  - `.border-top-hidden`
+  - `.border-left-hidden`
+  - `.border-right-hidden`
+  - `.border-bottom-hidden`
 
 ### [`border-width`](border-width.css)
 - `.border-zero`
