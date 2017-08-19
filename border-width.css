@@ -3,7 +3,7 @@
 .border-medium { border-width: medium }
 .border-thick { border-width: thick }
 
-.border-top-zero { border-top-width: 0 }
-.border-left-zero { border-left-width: 0 }
-.border-right-zero { border-right-width: 0 }
-.border-bottom-zero { border-bottom-width: 0 }
+.top-zero { border-top-width: 0 }
+.left-zero { border-left-width: 0 }
+.right-zero { border-right-width: 0 }
+.bottom-zero { border-bottom-width: 0 }

@@ -9,12 +9,12 @@
 .border-double { border-style: double }
 .border-hidden { border-style: hidden }
 
-.border-top-none { border-top-style: none }
-.border-left-none { border-left-style: none }
-.border-right-none { border-right-style: none }
-.border-bottom-none { border-bottom-style: none }
+.top-none { border-top-style: none }
+.left-none { border-left-style: none }
+.right-none { border-right-style: none }
+.bottom-none { border-bottom-style: none }
 
-.border-top-hidden { border-top-style: hidden }
-.border-left-hidden { border-left-style: hidden }
-.border-right-hidden { border-right-style: hidden }
-.border-bottom-hidden { border-bottom-style: hidden }
+.top-hidden { border-top-style: hidden }
+.left-hidden { border-left-style: hidden }
+.right-hidden { border-right-style: hidden }
+.bottom-hidden { border-bottom-style: hidden }
