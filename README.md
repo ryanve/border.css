@@ -1,6 +1,10 @@
 # border.css
 Opensource functional CSS border classes
 
+```css
+@import 'node_modules/border.css/border';
+```
+
 ## Classes
 
 ### `border-style`
