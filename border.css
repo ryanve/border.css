@@ -1,8 +1,8 @@
-.border-current { border-color: currentColor }
-.border-transparent { border-color: transparent }
-
 .border-separate { border-collapse: separate }
 .border-collapse { border-collapse: collapse }
+
+.border-current { border-color: currentColor }
+.border-transparent { border-color: transparent }
 
 .border-none { border-style: none }
 .border-top-none { border-top-style: none }

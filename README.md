@@ -22,6 +22,14 @@ npm install border.css
 
 ## [Classes](border.css)
 
+### [`border-collapse`](border-collapse.css)
+- `.border-separate`
+- `.border-collapse`
+
+### [`border-color`](border-color.css)
+- `.border-current`
+- `.border-transparent`
+
 ### [`border-style`](border-style.css)
 - `.border-none`
 - `.border-top-none`
@@ -35,11 +43,3 @@ npm install border.css
 - `.border-left-zero`
 - `.border-right-zero`
 - `.border-bottom-zero`
-
-### [`border-collapse`](border-collapse.css)
-- `.border-separate`
-- `.border-collapse`
-
-### [`border-color`](border-color.css)
-- `.border-current`
-- `.border-transparent`
