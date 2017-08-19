@@ -43,6 +43,10 @@ npm install border.css
 - `.border-dotted`
 - `.border-dashed`
 - `.border-solid`
+  - `.top-solid`
+  - `.left-solid`
+  - `.right-solid`
+  - `.bottom-solid`
 - `.border-double`
 - `.border-hidden`
   - `.top-hidden`

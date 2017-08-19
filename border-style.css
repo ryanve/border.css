@@ -14,6 +14,11 @@
 .right-none { border-right-style: none }
 .bottom-none { border-bottom-style: none }
 
+.top-solid { border-top-style: solid }
+.left-solid { border-left-style: solid }
+.right-solid { border-right-style: solid }
+.bottom-solid { border-bottom-style: solid }
+
 .top-hidden { border-top-style: hidden }
 .left-hidden { border-left-style: hidden }
 .right-hidden { border-right-style: hidden }
