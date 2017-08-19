@@ -1,0 +1,25 @@
+{
+  "name": "border.css",
+  "version": "0.0.0",
+  "description": "Functional CSS border classes",
+  "author": "Ryan Van Etten",
+  "license": "ISC",
+  "main": "border.css",
+  "style": "border.css",
+  "scripts": {},
+  "homepage": "https://github.com/ryanve/border.css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanve/border.css.git"
+  },
+  "keywords": [
+    "css",
+    "border",
+    "borders",
+    "border-style",
+    "functional-css"
+  ],
+  "bugs": {
+    "url": "https://github.com/ryanve/border.css/issues"
+  }
+}
