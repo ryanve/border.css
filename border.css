@@ -20,6 +20,11 @@
 .border-right-none { border-right-style: none }
 .border-bottom-none { border-bottom-style: none }
 
+.border-top-hidden { border-top-style: hidden }
+.border-left-hidden { border-left-style: hidden }
+.border-right-hidden { border-right-style: hidden }
+.border-bottom-hidden { border-bottom-style: hidden }
+
 .border-zero { border-width: 0 }
 .border-top-zero { border-top-width: 0 }
 .border-left-zero { border-left-width: 0 }
