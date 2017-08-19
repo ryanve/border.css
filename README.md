@@ -13,3 +13,7 @@ Opensource functional CSS border classes
 - `.border-left-none`
 - `.border-right-none`
 - `.border-bottom-none`
+
+### `border-collapse`
+- `.border-separate`
+- `.border-collapse`
