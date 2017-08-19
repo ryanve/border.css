@@ -1,5 +1,5 @@
 # border.css
-[Opensource functional CSS border classes](#classes). Available [on npm](https://www.npmjs.com/package/border.css) for production and [unpkg](https://unpkg.com/border.css/) for prototyping online.
+[Opensource functional CSS border classes](#classes). Available [on npm](https://www.npmjs.com/package/border.css) for production and [unpkg](https://unpkg.com/border.css/) for [prototyping online](https://codepen.io/ryanve/pen/RZQqNX).
 
 ```
 npm install border.css
