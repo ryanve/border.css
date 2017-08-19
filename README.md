@@ -52,7 +52,10 @@ npm install border.css
 
 ### [`border-width`](border-width.css)
 - `.border-zero`
-- `.border-top-zero`
-- `.border-left-zero`
-- `.border-right-zero`
-- `.border-bottom-zero`
+  - `.border-top-zero`
+  - `.border-left-zero`
+  - `.border-right-zero`
+  - `.border-bottom-zero`
+- `.border-thin`
+- `.border-medium`
+- `.border-thick`
