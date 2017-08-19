@@ -29,6 +29,10 @@ npm install border.css
 ### [`border-color`](border-color.css)
 - `.border-current`
 - `.border-transparent`
+  - `.top-transparent`
+  - `.left-transparent`
+  - `.right-transparent`
+  - `.bottom-transparent`
 
 ### [`border-style`](border-style.css)
 - `.border-none`

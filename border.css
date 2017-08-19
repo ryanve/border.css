@@ -4,6 +4,11 @@
 .border-current { border-color: currentColor }
 .border-transparent { border-color: transparent }
 
+.top-transparent { border-top-color: transparent }
+.left-transparent { border-left-color: transparent }
+.right-transparent { border-right-color: transparent }
+.bottom-transparent { border-bottom-color: transparent }
+
 .border-none { border-style: none }
 .border-inset { border-style: inset }
 .border-groove { border-style: groove }
