@@ -32,10 +32,20 @@ npm install border.css
 
 ### [`border-style`](border-style.css)
 - `.border-none`
-- `.border-top-none`
-- `.border-left-none`
-- `.border-right-none`
-- `.border-bottom-none`
+  - `.border-top-none`
+  - `.border-left-none`
+  - `.border-right-none`
+  - `.border-bottom-none`
+- `.border-solid`
+- `.border-dotted`
+- `.border-dashed`
+- `.border-double`
+- `.border-groove`
+- `.border-ridge`
+- `.border-inset`
+- `.border-outset`
+- `.border-hidden`
+
 
 ### [`border-width`](border-width.css)
 - `.border-zero`
