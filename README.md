@@ -15,7 +15,9 @@ npm install border.css
 
 ```css
 @import 'node_modules/border.css/border-collapse';
+@import 'node_modules/border.css/border-color';
 @import 'node_modules/border.css/border-style';
+@import 'node_modules/border.css/border-width';
 ```
 
 ## [Classes](border.css)
