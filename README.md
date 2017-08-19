@@ -1,19 +1,32 @@
 # border.css
-Opensource functional CSS border classes
+[Opensource functional CSS border classes](#classes). Available [on npm](https://www.npmjs.com/package/border.css) for production and [unpkg](https://unpkg.com/border.css/) for prototyping online.
+
+```
+npm install border.css
+```
+
+### `@import` all
 
 ```css
 @import 'node_modules/border.css/border';
 ```
 
-## Classes
+### `@import` incrementally
 
-### `border-style`
+```css
+@import 'node_modules/border.css/border-collapse';
+@import 'node_modules/border.css/border-style';
+```
+
+## [Classes](border.css)
+
+### [`border-style`](border-style.css)
 - `.border-none`
 - `.border-top-none`
 - `.border-left-none`
 - `.border-right-none`
 - `.border-bottom-none`
 
-### `border-collapse`
+### [`border-collapse`](border-collapse.css)
 - `.border-separate`
 - `.border-collapse`
