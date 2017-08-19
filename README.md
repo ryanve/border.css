@@ -36,16 +36,15 @@ npm install border.css
   - `.border-left-none`
   - `.border-right-none`
   - `.border-bottom-none`
-- `.border-solid`
+- `.border-inset`
+- `.border-groove`
+- `.border-outset`
+- `.border-ridge`
 - `.border-dotted`
 - `.border-dashed`
+- `.border-solid`
 - `.border-double`
-- `.border-groove`
-- `.border-ridge`
-- `.border-inset`
-- `.border-outset`
 - `.border-hidden`
-
 
 ### [`border-width`](border-width.css)
 - `.border-zero`
