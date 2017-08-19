@@ -7,7 +7,7 @@
   "main": "border.css",
   "style": "border.css",
   "scripts": {
-    "start": "concat border-color.css border-collapse.css border-style.css border-width.css -o border.css"
+    "start": "concat border-collapse.css border-color.css border-style.css border-width.css -o border.css"
   },
   "homepage": "https://github.com/ryanve/border.css",
   "repository": {
