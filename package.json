@@ -6,7 +6,9 @@
   "license": "ISC",
   "main": "border.css",
   "style": "border.css",
-  "scripts": {},
+  "scripts": {
+    "start": "concat border-collapse.css border-style.css -o border.css"
+  },
   "homepage": "https://github.com/ryanve/border.css",
   "repository": {
     "type": "git",
@@ -21,5 +23,8 @@
   ],
   "bugs": {
     "url": "https://github.com/ryanve/border.css/issues"
+  },
+  "devDependencies": {
+    "concat": "^1.0.3"
   }
 }
