@@ -22,6 +22,8 @@ npm install border.css
 
 ## [Classes](border.css)
 
+Classes appear in cascade order. Dedicated `top`|`left`|`right`|`bottom` classes override any `border-` class from that list. Composing `"border-hidden top-solid"` yields `solid hidden hidden` for example. [Order mirrors border resolution](https://github.com/ryanve/border.css/pull/10). Others override `none` while `hidden` overrides all.
+
 ### [`border-collapse`](border-collapse.css)
 - `.border-separate`
 - `.border-collapse`
