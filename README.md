@@ -16,6 +16,7 @@ npm install border.css
 ```css
 @import 'node_modules/border.css/border-collapse';
 @import 'node_modules/border.css/border-color';
+@import 'node_modules/border.css/border-nth';
 @import 'node_modules/border.css/border-style';
 @import 'node_modules/border.css/border-width';
 ```
@@ -37,6 +38,12 @@ npm install border.css
   - `.left-transparent`
   - `.right-transparent`
   - `.bottom-transparent`
+
+### [`border-nth`](border-nth.css)
+- `.first-top-none`
+- `.first-left-none`
+- `.last-right-none`
+- `.last-bottom-none`
 
 ### [`border-style`](border-style.css)
 - `.border-none`
