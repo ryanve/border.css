@@ -16,7 +16,7 @@ npm install border.css
 ```css
 @import 'node_modules/border.css/border-collapse';
 @import 'node_modules/border.css/border-color';
-@import 'node_modules/border.css/border-nth';
+@import 'node_modules/border.css/border-context';
 @import 'node_modules/border.css/border-style';
 @import 'node_modules/border.css/border-width';
 ```
@@ -35,7 +35,7 @@ npm install border.css
   - `.right-transparent`
   - `.bottom-transparent`
 
-### [`border-nth`](border-nth.css)
+### [`border-context`](border-context.css)
 - `.first-top-none`
 - `.first-left-none`
 - `.last-right-none`
@@ -77,5 +77,5 @@ npm install border.css
 
 ### Precedence
 
-- `border` < `top`|`left`|`right`|`bottom`
+- `border` < `top`|`left`|`right`|`bottom` < `first`|`last`
 - [`none` < style < `hidden`](https://github.com/ryanve/border.css/pull/10)
