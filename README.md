@@ -77,5 +77,5 @@ npm install border.css
 
 ### Precedence
 
-- `top`|`left`|`right`|`bottom` override general classes
-- [`none` < styles < `hidden`](https://github.com/ryanve/border.css/pull/10)
+- `border` < `top`|`left`|`right`|`bottom`
+- [`none` < style < `hidden`](https://github.com/ryanve/border.css/pull/10)
