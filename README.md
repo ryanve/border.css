@@ -77,5 +77,5 @@ npm install border.css
 
 ### Precedence
 
-- `border` < `top`|`left`|`right`|`bottom`
+- `border` < `top`|`left`|`right`|`bottom` < `first`|`last`
 - [`none` < style < `hidden`](https://github.com/ryanve/border.css/pull/10)
