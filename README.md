@@ -23,10 +23,6 @@ npm install border.css
 
 ## [Classes](border.css)
 
-- each list is in cascade order
-- `top`|`left`|`right`|`bottom` override general classes
-- [`none` < styles < `hidden`](https://github.com/ryanve/border.css/pull/10)
-
 ### [`border-collapse`](border-collapse.css)
 - `.border-separate`
 - `.border-collapse`
@@ -78,3 +74,8 @@ npm install border.css
 - `.border-thin`
 - `.border-medium`
 - `.border-thick`
+
+### Precedence
+
+- `top`|`left`|`right`|`bottom` override general classes
+- [`none` < styles < `hidden`](https://github.com/ryanve/border.css/pull/10)
