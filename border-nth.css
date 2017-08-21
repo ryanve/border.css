@@ -1,0 +1,5 @@
+.first-top-none:first-child { border-top-style: none }
+.first-left-none:first-child { border-left-style: none }
+.last-right-none:last-child { border-right-style: none }
+.last-bottom-none:last-child { border-bottom-style: none }
+ 
