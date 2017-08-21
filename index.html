@@ -1,35 +1,45 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en-US" class="scheme-0">
 <meta charset="utf-8">
 <title>border.css // Borders.</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Opensource functional CSS borders">
 <link rel="stylesheet" href="border.css">
+<link rel="stylesheet" href="https://unpkg.com/tx.css@0.1.0">
 <style>
   * { box-sizing: border-box }
   :focus { outline-color: currentColor }
   :link { transition: 275ms ease color  }
   :link, :visited { color: BlueViolet }
   :link:hover { color: DarkViolet }
+  .scheme-0 { background: MintCream; color: Black }
+  .scheme-1 { background: MediumAquamarine; color: Black; border-color: MediumAquamarine }
   html { font: 1.3125em/1.5 sans-serif }
-  html { background: MintCream; color: Black }
   body { margin: auto; padding: 2em; width: 100%; max-width: 50em }
   code { font-family: inherit }
+  button:enabled { cursor: pointer }
+  td { vertical-align: top; padding: .5em }
+  td ul { margin: 0; padding-left: 1em }
+  .bold { font-weight: bold }
   .inline-block { display: inline-block }
   .block { display: block }
   .pad { padding: .25rem 1rem }
+  .unpad { padding: 0 }
   .flush { margin: 0 }
   .flow { margin: 0 0 1.5rem }
-  h2 { text-transform: uppercase; font-weight: 600 }
+  .flow-compact { margin: 0 0 .75em }
+  .subhead {
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 500;
+  }
 </style>
-
-<header class="flow pad border-thick border-double">
+<header class="flow pad border-groove border-thick">
   <h1 class="flush"><a href="http://ryanve.github.io/border.css/">border.css</a></h1>
   <a href="https://github.com/ryanve/border.css">Github</a>
   <a href="https://www.npmjs.com/package/border.css">npm</a>
   <a href="https://unpkg.com/border.css@0.7.0/">unpkg</a>
 </header>
-
 <section>
   <figure class="flow pad border-none">
     <figcaption><code>border-none</code></figcaption>
@@ -158,3 +168,61 @@
     <figcaption><code>border-thick border-hidden</code></figcaption>
   </figure>
 </section>
+<figure class="flow" id="vue">
+  <figcaption class="subhead flow-compact">Interactive table demo</figcaption>
+  <div class="flow-compact">
+    <button class="scheme-1 pad border-outset bold" togg-scope="table" togg-event="click" v-togg>collapse | separate</button>
+  </div>
+  <table togg-scope="table" togg-class="border-collapse" class="border-solid border-current">
+    <tr>
+      <th class="border-solid">Style</th>
+      <th class="border-solid">Conveys</th>
+      <th class="border-solid">Use cases</th>
+    </tr>
+    <tr>
+      <td class="border-inset">inset</td>
+      <td class="border-inset"><ul><li>editability</ul></td>
+      <td class="border-inset"><ul><li>inputs</ul></td>
+    </tr>
+    <tr>
+      <td class="border-groove">groove</td>
+      <td class="border-groove"><ul><li>dimension</ul></td>
+      <td class="border-groove"><ul><li>perspective</ul></td>
+    </tr>
+    <tr>
+      <td class="border-outset">outset</td>
+      <td class="border-outset"><ul><li>clickability</ul></td>
+      <td class="border-outset"><ul><li>buttons</ul></td>
+    </tr>
+    <tr>
+      <td class="border-ridge">ridge</td>
+      <td class="border-ridge"><ul><li>dimension</ul></td>
+      <td class="border-ridge"><ul><li>windows</ul></td>
+    </tr>
+    <tr>
+      <td class="border-dotted">dotted</td>
+      <td class="border-dotted"><ul><li>focus<li>fun</ul></td>
+      <td class="border-dotted"><ul><li>focus state<li>playful tone</ul></td>
+    </tr>
+    <tr>
+      <td class="border-dashed">dashed</td>
+      <td class="border-dashed"><ul><li>intermittence<li>incomplete<li>caution</ul></td>
+      <td class="border-dashed"><ul><li>offline status<li>progress<li>warning</ul></td>
+    </tr>
+    <tr>
+      <td class="border-solid">solid</td>
+      <td class="border-solid"><ul><li>separation<li>attention<li>current</ul></td>
+      <td class="border-solid"><ul><li>sectioning<li>contrast<li>context</ul></td>
+    </tr>
+    <tr>
+      <td class="border-double">double</td>
+      <td class="border-double"><ul><li>attention</ul></td>
+      <td class="border-double"><ul><li>contrast<li>states</ul></td>
+    </tr>
+  </table>
+</figure>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js"></script>
+<script src="https://unpkg.com/vue@2.2.2/dist/vue.min.js"></script>
+<script src="https://unpkg.com/v-togg@0.6.0/togg.js"></script>
+<script>console.log(new Vue({ el: '#vue' }))</script>
