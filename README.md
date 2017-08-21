@@ -66,11 +66,11 @@ npm install border.css
   - `.bottom-hidden`
 
 ### [`border-width`](border-width.css)
-- `.border-zero`
-  - `.top-zero`
-  - `.left-zero`
-  - `.right-zero`
-  - `.bottom-zero`
+- `.border-trim`
+  - `.top-trim`
+  - `.left-trim`
+  - `.right-trim`
+  - `.bottom-trim`
 - `.border-thin`
 - `.border-medium`
 - `.border-thick`
